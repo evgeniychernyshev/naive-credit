@@ -4,6 +4,7 @@ def is_creditable(age, salary):
     >>> is_creditable(30, 40000)
     True
 
+    # негативные тесты
     >>> is_creditable(20, 40000)
     False
 
